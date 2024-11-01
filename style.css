@@ -1,0 +1,146 @@
+.simple-autopop-calendar-event {
+    border-bottom: 1px solid #efefef
+}
+
+.simple-autopop-calendar-event .list-info {
+    line-height: 1.25
+}
+
+.sidebar-primary .simple-autopop-calendar-event .list-info h2, .sidebar-primary .simple-autopop-calendar-event .list-info h2 a {
+    font-family: open sans condensed, lato, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0
+}
+
+.sidebar-primary .duration, .sidebar-primary .vcard {
+    margin-top: 4px;
+    margin-bottom: 4px
+}
+
+.home-featured-events .wrap {
+    /*padding: 20px*/
+}
+
+.home-featured-events .event-widget-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -webkit-box-pack: justify;
+    justify-content: space-between
+}
+
+.home-featured-events .type-row_events {
+    -ms-flex: 1 1 275px;
+    -webkit-flex: 1 1 275px;
+    -webkit-box-flex: 1;
+    flex: 1 1 275px
+}
+
+.home-featured-events .simple-autopop-calendar-event {
+    border-bottom: 0;
+    padding: 10px
+}
+
+.home-featured-events .simple-autopop-widget-link {
+    clear: both;
+    text-align: right;
+    padding-top: 12px;
+    border-top: 1px solid #dedede
+}
+
+.home-featured-events .list-info h2 {
+    font-size: 20px;
+    font-weight: 700
+}
+
+.simple-autopop-calendar-event .simple-autopop-event-image {
+    margin-top: 6px;
+    margin-bottom: 6px
+}
+
+.simple-autopop-widget-area .simple-autopop-calendar-event .simple-autopop-event-image img {
+    min-height: initial;
+}
+
+.simple-autopop-calendar-event .simple-autopop-event-image img {
+    min-height: 170px;
+}
+
+.simple-autopop-calendar-event .list-info {
+    font-size: 15px;
+    width: 100%
+}
+
+.duration.venue {
+    margin-bottom: 12px
+}
+
+.simple-autopop-calendar-event .list-info h2, .simple-autopop-calendar-event .list-info h2 a {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0
+}
+
+/*@media only screen and (max-width: 1200px) {
+    .home-featured-events .event-widget-container {
+        flex-direction: column;
+    }
+}*/
+
+.simple-autopop-widget-area .simple-autopop-calendar-event {
+    padding: 10px 10px 10px 0;
+}
+
+.simple-autopop-orgname {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+    .home-featured-events .simple-autopop-calendar-event {
+        padding: 10px 10px 10px 0;
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+    .home-featured-events .event-widget-container {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 899px) {
+    .home-featured-events .event-widget-container {
+        flex-direction: column;
+    }
+    
+    .simple-autopop-calendar-event .simple-autopop-event-image img {
+        min-height: initial;
+    }
+}
+
+
+/*
+
+@media only screen and (min-width: 961px) and (max-width: 1201px) {
+    .home-featured-events .type-row_events {
+        -ms-flex: 0 1 430px;
+        -webkit-flex: 0 1 430px;
+        -webkit-box-flex: 0;
+        flex: 0 1 430px
+    }
+}*/
